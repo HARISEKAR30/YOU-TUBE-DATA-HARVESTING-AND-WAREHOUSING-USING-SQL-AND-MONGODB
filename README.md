@@ -16,10 +16,10 @@ Query the SQL data warehouse: We can use SQL queries to join the tables in the S
 Display data in the Streamlit app: Finally,display the retrieved data in the Streamlit app. We can use Streamlit's data visualization features to create charts and graphs to help users analyze the data.
 
 Libraries Used:
-google-api-python-client
-pymongo
-psycopg2
-streamlit
+google-api-python-client,
+pymongo,
+psycopg2,
+streamlit,
 pandas
 
 Overall, this approach involves building a simple UI with Streamlit, retrieving data from the YouTube API, storing the data SQL as a warehouse, querying the data warehouse with SQL, and displaying the data in the Streamlit app.
