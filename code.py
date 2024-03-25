@@ -449,14 +449,9 @@ def show_commenttable():
 
 # stream lit code
 
-with st.sidebar:
-    st.title(":red[YOUTUBE DATA HARVESTING AND WAREHOUSING]")
-    st.header("Skill Takeaway")
-    st.caption("Python Scrpiting")
-    st.caption("Data Collection")
-    st.caption("MongoDb")
-    st.caption("API intergration")
-    st.caption("Data Management using MongoDb and SQL")
+
+st.title(":red[YOUTUBE DATA HARVESTING AND WAREHOUSING]")
+
 
 idofchannel=st.text_input("Enter the channel id")
 
